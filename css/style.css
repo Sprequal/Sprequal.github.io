@@ -1,26 +1,42 @@
 body{
-	background-color:#f4f4f4;
+	background-color:#E0E0E0;
 	color:#555;
 	font-family: Arial,Helvetica, sans-serif;
 	font-size: 16px;
 	line-height: 1.6em;
-	margin: 0;
+	margin: 0px;
 }
 
+
 .container{
-	width:80%;
 	margin:auto;
 	overflow:hidden;
+	margin: 0px 15px;
 }
 
 #main-header{
-	background-color:#7CD2B3;
-	color:#fff;
+	background-color:#FB6B5B;
+	color:#EbEbEB;
+	height: 80px;
+}
+
+#logo-text{
+
+	display: inline;
+	background-color:#FB6B5B;
+	font-size: 60px;
+}
+
+#logo{
+	display: inline;
+	background-image: url('../images/showcase3.png');
+	background-size: 100%;
+	padding: 40px;
 }
 
 #navbar{
-	background-color:#333;
-	color:#fff;
+	background-color:#739B33;
+	color:#EBEBEB;
 }
 
 #navbar ul{
@@ -33,7 +49,7 @@ body{
 }
 
 #navbar a{
-	color:#fff;
+	color:#EBEBEB;
 	text-decoration: none;
 	font-size:18px;
 	padding-right:15px;
@@ -41,11 +57,12 @@ body{
 
 #showcase{
 	background-image: url('../images/showcase4.jpg');
-	background-position:center center;
+	background-position:left center;
 	min-height:250px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	text-align:center;
-	background-repeat:;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 #showcase h1{
@@ -65,14 +82,14 @@ body{
 #sidebar{
 	float:right;
 	width:30%;
-	background:#7CD2B3;
+	background:#A0BB74;
 	color:#fff;
 	padding: 10px;
 	box-sizing:border-box;
 }
 
 #main-footer{
-	background: #7CD2B3;
+	background: #FB6B5B;
 	color:#fff;
 	text-align: center;
 	padding: 20px;
